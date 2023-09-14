@@ -5,6 +5,10 @@ import { CardsModule } from '@elewa-website/elements/cards';
 import { CarouselModule } from '@elewa-website/elements/layout/carousel';
 import { MainPageModule } from '@elewa-website/elements/layout/pages/main-page';
 import { BannersModule } from '@elewa-website/elements/banners';
+import { TextsModule } from '@elewa-website/elements/layout/texts';
+import { ImagesModule } from '@elewa-website/elements/layout/images';
+import { ButtonsModule } from '@elewa-website/elements/layout/buttons';
+
 
 import { HomePageComponent } from './main/home/home-page.component';
 import { NewsSectionComponent } from './components/news-section/news-section.component';
@@ -22,6 +26,9 @@ import { HomeHeroSectionComponent } from './components/home-hero-section/home-he
     CarouselModule,
     MainPageModule,
     BannersModule,
+    TextsModule,
+    ImagesModule,
+    ButtonsModule,
   ],
   declarations: [
     HomePageComponent,
